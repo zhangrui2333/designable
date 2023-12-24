@@ -1,4 +1,4 @@
-import { getKeyCodeFromEvent, KeyCode } from '@edan/designable-shared'
+import { getKeyCodeFromEvent, KeyCode } from '@edan-kit/designable-shared'
 import { IEngineContext } from '../../types'
 
 export class AbstractKeyboardEvent {

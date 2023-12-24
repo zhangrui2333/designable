@@ -1,5 +1,5 @@
 import { observer, ReactFC } from '@formily/reactive-react'
-import { TreeNode } from '@edan/designable-core'
+import { TreeNode } from '@edan-kit/designable-core'
 import { Button } from 'antd'
 import React from 'react'
 import { useDesigner, usePrefix } from '../../hooks'

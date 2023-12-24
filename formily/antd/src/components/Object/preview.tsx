@@ -1,6 +1,6 @@
 import React from 'react'
-import { createBehavior, createResource } from '@edan/designable-core'
-import { DnFC } from '@edan/designable-react'
+import { createBehavior, createResource } from '@edan-kit/designable-core'
+import { DnFC } from '@edan-kit/designable-react'
 import { createFieldSchema } from '../Field'
 import { Container } from '../../common/Container'
 import { AllLocales } from '../../locales'

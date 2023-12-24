@@ -1,11 +1,11 @@
 import React, { useRef, useEffect } from 'react'
-import { isFn, globalThisPolyfill } from '@edan/designable-shared'
+import { isFn, globalThisPolyfill } from '@edan-kit/designable-shared'
 import {
   useDesigner,
   useWorkspace,
   useLayout,
   usePrefix,
-} from '@edan/designable-react'
+} from '@edan-kit/designable-react'
 import ReactDOM from 'react-dom'
 
 export interface ISandboxProps {

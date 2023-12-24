@@ -1,6 +1,6 @@
 {
-  "name": "@edan/designable-shared",
-  "version": "0.0.3",
+  "name": "@edan-kit/designable-shared",
+  "version": "0.0.0",
   "license": "MIT",
   "main": "lib",
   "types": "lib/index.d.ts",
@@ -39,5 +39,5 @@
   "files": [
     "lib"
   ],
-  "gitHead": "99a3982f348b076e8291ca18c29520f99290a564"
+  "gitHead": "55c9307666e94cd1ac2ad10d71d834257cf06fe4"
 }

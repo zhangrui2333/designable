@@ -1,4 +1,4 @@
-import { createLocales } from '@edan/designable-core'
+import { createLocales } from '@edan-kit/designable-core'
 import { Component } from './Component'
 
 export const Form = createLocales(Component, {

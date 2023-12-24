@@ -1,6 +1,6 @@
 import { ISchema, Schema } from '@formily/json-schema'
-import { ITreeNode } from '@edan/designable-core'
-import { clone, uid } from '@edan/designable-shared'
+import { ITreeNode } from '@edan-kit/designable-core'
+import { clone, uid } from '@edan-kit/designable-shared'
 
 export interface ITransformerOptions {
   designableFieldName?: string

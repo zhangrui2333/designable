@@ -35,7 +35,7 @@ export {
   CustomDivider as Divider,
   CustomModal as Modal,
   CustomRadio as Radio,
-} from '@edan/designable-formily-antd';
+} from '@edan-kit/designable-formily-antd';
 
 export const Text: React.FC<{
   value?: string

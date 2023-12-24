@@ -1,6 +1,6 @@
 import React from 'react'
 import { useMoveHelper, usePrefix } from '../../hooks'
-import { ClosestPosition } from '@edan/designable-core'
+import { ClosestPosition } from '@edan-kit/designable-core'
 import { observer } from '@formily/reactive-react'
 
 export const Insertion = observer(() => {

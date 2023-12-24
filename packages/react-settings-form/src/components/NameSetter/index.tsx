@@ -1,5 +1,5 @@
 import React, { useContext } from 'react'
-import { usePrefix } from '@edan/designable-react'
+import { usePrefix } from '@edan-kit/designable-react'
 import { observer } from '@formily/react'
 import { SettingsFormContext } from '../../shared/context'
 import { Select } from 'antd'

@@ -1,5 +1,5 @@
 import { observer, ReactFC } from '@formily/reactive-react'
-import { GlobalRegistry, TreeNode } from '@edan/designable-core'
+import { GlobalRegistry, TreeNode } from '@edan-kit/designable-core'
 import cls from 'classnames'
 import React, { Fragment, useEffect } from 'react'
 import { DesignerComponentsContext, TreeNodeContext } from '../../context'

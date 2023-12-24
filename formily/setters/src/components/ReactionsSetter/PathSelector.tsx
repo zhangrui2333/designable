@@ -1,6 +1,6 @@
 import React, { ReactNode } from 'react'
-import { TreeNode } from '@edan/designable-core'
-import { useSelectedNode } from '@edan/designable-react'
+import { TreeNode } from '@edan-kit/designable-core'
+import { useSelectedNode } from '@edan-kit/designable-react'
 import { TreeSelectProps, TreeSelect } from 'antd'
 
 export interface IPathSelectorProps

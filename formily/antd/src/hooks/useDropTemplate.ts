@@ -1,5 +1,5 @@
-import { AppendNodeEvent, TreeNode } from '@edan/designable-core'
-import { useDesigner } from '@edan/designable-react'
+import { AppendNodeEvent, TreeNode } from '@edan-kit/designable-core'
+import { useDesigner } from '@edan-kit/designable-react'
 import { matchComponent, matchChildComponent } from '../shared'
 
 export const useDropTemplate = (

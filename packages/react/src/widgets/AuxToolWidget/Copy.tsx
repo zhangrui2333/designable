@@ -1,5 +1,5 @@
 import React from 'react'
-import { TreeNode } from '@edan/designable-core'
+import { TreeNode } from '@edan-kit/designable-core'
 import { usePrefix } from '../../hooks'
 import { IconWidget } from '../IconWidget'
 import { Button } from 'antd'

@@ -1,4 +1,4 @@
-import { GlobalRegistry } from '@edan/designable-core'
+import { GlobalRegistry } from '@edan-kit/designable-core'
 import { ISchema } from '@formily/react'
 
 export const Card: ISchema & { Addition?: ISchema } = {

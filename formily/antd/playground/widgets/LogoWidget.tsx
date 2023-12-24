@@ -1,5 +1,5 @@
 import React from 'react'
-// import { useTheme } from '@edan/designable-react'
+// import { useTheme } from '@edan-kit/designable-react'
 import logo from '../../src/assets/images/logo.svg';
 
 // const logo = {

@@ -1,6 +1,6 @@
 import React, { useRef } from 'react'
 import { Input, Popover } from 'antd'
-import { usePrefix } from '@edan/designable-react'
+import { usePrefix } from '@edan-kit/designable-react'
 import { SketchPicker } from 'react-color'
 import './styles.less'
 

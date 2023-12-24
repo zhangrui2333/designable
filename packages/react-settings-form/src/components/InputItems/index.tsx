@@ -1,5 +1,5 @@
 import { ReactFC } from '@formily/reactive-react'
-import { IconWidget, usePrefix } from '@edan/designable-react'
+import { IconWidget, usePrefix } from '@edan-kit/designable-react'
 import cls from 'classnames'
 import React, { useContext } from 'react'
 import './styles.less'

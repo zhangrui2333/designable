@@ -2,7 +2,7 @@ import React, { Fragment, useRef, useMemo } from 'react'
 import { FormItem, IFormItemProps } from '@formily/antd'
 import { useField, observer, ReactFC } from '@formily/react'
 import { observable } from '@formily/reactive'
-import { IconWidget, usePrefix } from '@edan/designable-react'
+import { IconWidget, usePrefix } from '@edan-kit/designable-react'
 import cls from 'classnames'
 import './styles.less'
 

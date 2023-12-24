@@ -1,5 +1,5 @@
-import { createBehavior, createResource } from '@edan/designable-core';
-import { DnFC } from '@edan/designable-react';
+import { createBehavior, createResource } from '@edan-kit/designable-core';
+import { DnFC } from '@edan-kit/designable-react';
 import React from 'react';
 // import { createVoidFieldSchema } from "../Field";
 import { Divider as AntdDivider } from 'antd';

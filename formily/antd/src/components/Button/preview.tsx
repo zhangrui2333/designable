@@ -1,10 +1,10 @@
 import React, { useCallback } from 'react';
-import { DnFC } from '@edan/designable-react';
+import { DnFC } from '@edan-kit/designable-react';
 import { Button as AntdButton } from 'antd';
 import { observer, useField } from '@formily/react';
 import { throttle } from 'lodash';
 import { eventBus } from '../../utils';
-import { createBehavior, createResource } from '@edan/designable-core';
+import { createBehavior, createResource } from '@edan-kit/designable-core';
 import { AllLocales } from '../../locales';
 import { createVoidFieldSchema } from '../Field';
 import { AllSchemas } from '../../schemas';

@@ -3,8 +3,8 @@
   "compilerOptions": {
     "outDir": "./lib",
     "paths": {
-      "@edan/designable-*": ["../../packages/*"],
-      "@edan/designable-formily-*": ["../../formily/*"]
+      "@edan-kit/designable-*": ["../../packages/*"],
+      "@edan-kit/designable-formily-*": ["../../formily/*"]
     },
     "declaration": true
   }

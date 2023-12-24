@@ -1,4 +1,4 @@
-import { EventDriver, globalThisPolyfill } from '@edan/designable-shared'
+import { EventDriver, globalThisPolyfill } from '@edan-kit/designable-shared'
 import { Engine } from '../models/Engine'
 import { ViewportScrollEvent } from '../events'
 

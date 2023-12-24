@@ -1,6 +1,6 @@
 {
-  "name": "@edan/designable-react-sandbox",
-  "version": "0.0.3",
+  "name": "@edan-kit/designable-react-sandbox",
+  "version": "0.0.0",
   "license": "MIT",
   "main": "lib",
   "types": "lib/index.d.ts",
@@ -23,8 +23,8 @@
     "react-dom": "^18.0.0"
   },
   "dependencies": {
-    "@edan/designable-react": "^0.0.3",
-    "@edan/designable-shared": "^0.0.3",
+    "@edan-kit/designable-react": "0.0.0",
+    "@edan-kit/designable-shared": "0.0.0",
     "lodash": "^4.17.21",
     "moment": "^2.29.4",
     "react": "^18.2.0",
@@ -46,5 +46,5 @@
   "files": [
     "lib"
   ],
-  "gitHead": "99a3982f348b076e8291ca18c29520f99290a564"
+  "gitHead": "55c9307666e94cd1ac2ad10d71d834257cf06fe4"
 }

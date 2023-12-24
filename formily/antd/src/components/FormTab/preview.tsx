@@ -2,14 +2,14 @@ import React, { Fragment, useState } from 'react'
 import { observer } from '@formily/react'
 import { Tabs } from 'antd'
 import { TabsProps, TabPaneProps } from 'antd/lib/tabs'
-import { TreeNode, createBehavior, createResource } from '@edan/designable-core'
+import { TreeNode, createBehavior, createResource } from '@edan-kit/designable-core'
 import {
   useNodeIdProps,
   useTreeNode,
   TreeNodeWidget,
   DroppableWidget,
   DnFC,
-} from '@edan/designable-react'
+} from '@edan-kit/designable-react'
 import { LoadTemplate } from '../../common/LoadTemplate'
 import { useDropTemplate } from '../../hooks'
 import { createVoidFieldSchema } from '../Field'

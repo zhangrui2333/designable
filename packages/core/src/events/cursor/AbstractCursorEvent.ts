@@ -1,5 +1,5 @@
 import { IEngineContext } from '../../types'
-import { globalThisPolyfill } from '@edan/designable-shared'
+import { globalThisPolyfill } from '@edan-kit/designable-shared'
 
 export interface ICursorEventOriginData {
   clientX: number

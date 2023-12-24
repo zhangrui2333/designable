@@ -1,7 +1,7 @@
 import { Card as AntdCard, Modal as AntdModal, Button, message } from 'antd';
 import React, { useEffect, useRef, useState } from 'react';
-import { createBehavior, createResource } from '@edan/designable-core';
-import { DnFC } from '@edan/designable-react';
+import { createBehavior, createResource } from '@edan-kit/designable-core';
+import { DnFC } from '@edan-kit/designable-react';
 import { useField, useFieldSchema } from '@formily/react';
 import { merge } from 'lodash';
 import { AllLocales } from '../../locales';

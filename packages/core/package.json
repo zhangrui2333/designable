@@ -1,6 +1,6 @@
 {
-  "name": "@edan/designable-core",
-  "version": "0.0.3",
+  "name": "@edan-kit/designable-core",
+  "version": "0.0.0",
   "license": "MIT",
   "main": "lib",
   "types": "lib/index.d.ts",
@@ -27,7 +27,7 @@
     "@formily/path": "^2.2.14"
   },
   "dependencies": {
-    "@edan/designable-shared": "^0.0.3",
+    "@edan-kit/designable-shared": "0.0.0",
     "@formily/reactive": "^2.2.14",
     "@juggle/resize-observer": "^3.4.0",
     "lodash": "^4.17.21",
@@ -49,5 +49,5 @@
   "files": [
     "lib"
   ],
-  "gitHead": "99a3982f348b076e8291ca18c29520f99290a564"
+  "gitHead": "55c9307666e94cd1ac2ad10d71d834257cf06fe4"
 }

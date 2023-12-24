@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from 'react'
-import { Engine, GlobalRegistry } from '@edan/designable-core'
+import { Engine, GlobalRegistry } from '@edan-kit/designable-core'
 import { DesignerEngineContext } from '../context'
 import { IDesignerProps } from '../types'
 import { GhostWidget } from '../widgets'

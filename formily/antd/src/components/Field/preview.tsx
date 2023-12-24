@@ -12,13 +12,13 @@ import {
 } from '@formily/react'
 import { FormItem } from '@formily/antd'
 import { each, reduce } from '@formily/shared'
-import { createBehavior } from '@edan/designable-core'
+import { createBehavior } from '@edan-kit/designable-core'
 import {
   useDesigner,
   useTreeNode,
   useComponents,
   DnFC,
-} from '@edan/designable-react'
+} from '@edan-kit/designable-react'
 import { isArr, isStr } from '@formily/shared'
 import { Container } from '../../common/Container'
 import { AllLocales } from '../../locales'

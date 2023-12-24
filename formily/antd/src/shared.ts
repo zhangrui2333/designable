@@ -1,4 +1,4 @@
-import { TreeNode, Engine } from '@edan/designable-core'
+import { TreeNode, Engine } from '@edan-kit/designable-core'
 
 export type ComponentNameMatcher =
   | string

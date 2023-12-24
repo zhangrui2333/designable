@@ -1,8 +1,8 @@
-import { EventDriver } from '@edan/designable-shared'
+import { EventDriver } from '@edan-kit/designable-shared'
 import { Engine } from '../models/Engine'
 import { ViewportResizeEvent } from '../events'
 import { ResizeObserver } from '@juggle/resize-observer'
-import { globalThisPolyfill } from '@edan/designable-shared'
+import { globalThisPolyfill } from '@edan-kit/designable-shared'
 
 export class ViewportResizeDriver extends EventDriver<Engine> {
   request = 0

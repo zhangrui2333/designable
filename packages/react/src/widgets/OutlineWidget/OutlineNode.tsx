@@ -4,8 +4,8 @@ import {
   ClosestPosition,
   CursorStatus,
   DragMoveEvent,
-} from '@edan/designable-core'
-import { globalThisPolyfill, isFn } from '@edan/designable-shared'
+} from '@edan-kit/designable-core'
+import { globalThisPolyfill, isFn } from '@edan-kit/designable-shared'
 import { autorun } from '@formily/reactive'
 import { observer, ReactFC } from '@formily/reactive-react'
 import {

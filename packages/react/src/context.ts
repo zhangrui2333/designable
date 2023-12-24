@@ -1,5 +1,5 @@
 import { createContext } from 'react'
-import { TreeNode, Engine } from '@edan/designable-core'
+import { TreeNode, Engine } from '@edan-kit/designable-core'
 import {
   IDesignerLayoutContext,
   IWorkspaceContext,

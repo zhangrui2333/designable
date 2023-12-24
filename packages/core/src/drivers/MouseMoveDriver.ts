@@ -1,4 +1,4 @@
-import { EventDriver } from '@edan/designable-shared'
+import { EventDriver } from '@edan-kit/designable-shared'
 import { Engine } from '../models/Engine'
 import { MouseMoveEvent } from '../events'
 export class MouseMoveDriver extends EventDriver<Engine> {

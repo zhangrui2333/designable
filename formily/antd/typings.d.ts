@@ -1,4 +1,4 @@
-declare module '@edan/designable-formily-antd';
+declare module '@edan-kit/designable-formily-antd';
 
 declare module 'slash2';
 declare module '*.css';

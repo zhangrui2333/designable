@@ -1,4 +1,4 @@
-import { each } from '@edan/designable-shared'
+import { each } from '@edan-kit/designable-shared'
 import { Path } from '@formily/path'
 import { observable } from '@formily/reactive'
 import {

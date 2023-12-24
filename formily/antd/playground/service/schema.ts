@@ -1,8 +1,8 @@
-import { Engine, ITreeNode } from '@edan/designable-core'
+import { Engine, ITreeNode } from '@edan-kit/designable-core'
 import {
   transformToSchema,
   transformToTreeNode
-} from '@edan/designable-formily-transformer'
+} from '@edan-kit/designable-formily-transformer'
 import { message } from 'antd'
 
 export const saveSchema = (designer: Engine) => {

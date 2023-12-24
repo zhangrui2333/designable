@@ -1,4 +1,4 @@
-import { IDesignerLocaleStore } from '@edan/designable-core';
+import { IDesignerLocaleStore } from '@edan-kit/designable-core';
 import { Path } from '@formily/path';
 import { observable } from '@formily/reactive';
 import { isEmpty } from 'lodash';

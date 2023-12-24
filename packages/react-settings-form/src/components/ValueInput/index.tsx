@@ -6,7 +6,7 @@ import React, { FC, memo, useContext } from 'react'
 import { createPolyInput } from '../PolyInput'
 import { Input, Button, Popover, InputNumber, Select, TreeSelect } from 'antd'
 import { MonacoInput } from '../MonacoInput'
-import { TextWidget } from '@edan/designable-react'
+import { TextWidget } from '@edan-kit/designable-react'
 import { SettingsFormContext } from '../../shared/context'
 
 const STARTTAG_REX =

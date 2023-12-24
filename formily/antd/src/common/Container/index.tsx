@@ -1,6 +1,6 @@
 import React from 'react'
 import { observer, ReactFC } from '@formily/reactive-react'
-import { DroppableWidget } from '@edan/designable-react'
+import { DroppableWidget } from '@edan-kit/designable-react'
 import './styles.less'
 
 export const Container: ReactFC = observer((props) => {

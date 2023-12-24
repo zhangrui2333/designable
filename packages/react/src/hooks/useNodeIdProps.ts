@@ -1,4 +1,4 @@
-import { TreeNode } from '@edan/designable-core'
+import { TreeNode } from '@edan-kit/designable-core'
 import { useDesigner } from './useDesigner'
 import { useTreeNode } from './useTreeNode'
 

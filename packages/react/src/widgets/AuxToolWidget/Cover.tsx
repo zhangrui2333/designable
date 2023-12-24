@@ -1,5 +1,5 @@
 import { observer, ReactFC } from '@formily/reactive-react'
-import { ClosestPosition, CursorStatus, TreeNode } from '@edan/designable-core'
+import { ClosestPosition, CursorStatus, TreeNode } from '@edan-kit/designable-core'
 import cls from 'classnames'
 import React, { Fragment } from 'react'
 import {

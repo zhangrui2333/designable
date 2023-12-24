@@ -1,8 +1,8 @@
 import React, { useEffect } from 'react'
 import { Space, Button, Radio, Modal } from 'antd'
 import { ExclamationCircleOutlined, GithubOutlined } from '@ant-design/icons'
-import { useDesigner, TextWidget } from '@edan/designable-react'
-import { GlobalRegistry } from '@edan/designable-core'
+import { useDesigner, TextWidget } from '@edan-kit/designable-react'
+import { GlobalRegistry } from '@edan-kit/designable-core'
 import { observer } from '@formily/react'
 import { loadInitialSchema, getSchema } from '../service'
 import logo from '../assets/images/logo.svg';

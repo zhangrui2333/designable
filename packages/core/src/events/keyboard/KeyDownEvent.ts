@@ -1,4 +1,4 @@
-import { ICustomEvent } from '@edan/designable-shared'
+import { ICustomEvent } from '@edan-kit/designable-shared'
 import { AbstractKeyboardEvent } from './AbstractKeyboardEvent'
 
 export class KeyDownEvent

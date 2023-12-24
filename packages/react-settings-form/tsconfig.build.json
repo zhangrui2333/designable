@@ -3,7 +3,7 @@
   "compilerOptions": {
     "outDir": "./lib",
     "paths": {
-      "@edan/designable-*": ["../*"]
+      "@edan-kit/designable-*": ["../*"]
     },
     "declaration": true
   }

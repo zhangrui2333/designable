@@ -1,4 +1,4 @@
-import { createLocales } from '@edan/designable-core'
+import { createLocales } from '@edan-kit/designable-core'
 
 export const DatePicker = {
   'zh-CN': {

@@ -1,1 +1,1 @@
-# @edan/designable-formily
+# @edan-kit/designable-formily

@@ -1,4 +1,4 @@
-import { TreeNode } from '@edan/designable-core'
+import { TreeNode } from '@edan-kit/designable-core'
 import React, { createContext } from 'react'
 
 export interface INodeContext {

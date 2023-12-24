@@ -1,5 +1,5 @@
 import React from 'react'
-import { Engine, IResource, IBehavior } from '@edan/designable-core'
+import { Engine, IResource, IBehavior } from '@edan-kit/designable-core'
 
 export interface IDesignerLayoutProps {
   prefixCls?: string

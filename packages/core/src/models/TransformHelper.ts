@@ -16,7 +16,7 @@ import {
   isLineSegment,
   Point,
   Rect,
-} from '@edan/designable-shared'
+} from '@edan-kit/designable-shared'
 import { CursorDragType } from './Cursor'
 import { Operation } from './Operation'
 import { ISnapLine, SnapLine } from './SnapLine'

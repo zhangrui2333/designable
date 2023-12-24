@@ -1,5 +1,5 @@
 import { Engine } from '../models'
-import { ICustomEvent } from '@edan/designable-shared'
+import { ICustomEvent } from '@edan-kit/designable-shared'
 import { IEngineContext } from '../types'
 import { SelectNodeEvent } from '../events'
 

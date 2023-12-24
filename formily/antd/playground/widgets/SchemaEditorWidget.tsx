@@ -2,9 +2,9 @@ import React from 'react'
 import {
   transformToSchema,
   transformToTreeNode,
-} from '@edan/designable-formily-transformer'
-import { TreeNode, ITreeNode } from '@edan/designable-core'
-import { MonacoInput } from '@edan/designable-react-settings-form'
+} from '@edan-kit/designable-formily-transformer'
+import { TreeNode, ITreeNode } from '@edan-kit/designable-core'
+import { MonacoInput } from '@edan-kit/designable-react-settings-form'
 
 export interface ISchemaEditorWidgetProps {
   tree: TreeNode

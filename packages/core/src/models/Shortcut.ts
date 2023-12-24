@@ -1,4 +1,4 @@
-import { isFn, KeyCode } from '@edan/designable-shared'
+import { isFn, KeyCode } from '@edan-kit/designable-shared'
 import { IEngineContext } from '../types'
 
 export { KeyCode }

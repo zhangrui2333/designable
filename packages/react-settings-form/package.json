@@ -1,6 +1,6 @@
 {
-  "name": "@edan/designable-react-settings-form",
-  "version": "0.0.3",
+  "name": "@edan-kit/designable-react-settings-form",
+  "version": "0.0.0",
   "license": "MIT",
   "main": "lib",
   "types": "lib/index.d.ts",
@@ -37,9 +37,9 @@
   },
   "dependencies": {
     "@babel/parser": "^7.20.5",
-    "@edan/designable-core": "^0.0.3",
-    "@edan/designable-react": "^0.0.3",
-    "@edan/designable-shared": "^0.0.3",
+    "@edan-kit/designable-core": "0.0.0",
+    "@edan-kit/designable-react": "0.0.0",
+    "@edan-kit/designable-shared": "0.0.0",
     "@formily/antd": "3.0.0-alpha.1",
     "@formily/core": "^2.2.14",
     "@formily/grid": "^2.2.14",
@@ -74,5 +74,5 @@
   "files": [
     "lib"
   ],
-  "gitHead": "99a3982f348b076e8291ca18c29520f99290a564"
+  "gitHead": "55c9307666e94cd1ac2ad10d71d834257cf06fe4"
 }

@@ -2,7 +2,7 @@ import { Engine } from './Engine'
 import { Viewport } from './Viewport'
 import { Operation, IOperation } from './Operation'
 import { History } from './History'
-import { uid, ICustomEvent, EventContainer } from '@edan/designable-shared'
+import { uid, ICustomEvent, EventContainer } from '@edan-kit/designable-shared'
 import {
   HistoryGotoEvent,
   HistoryRedoEvent,

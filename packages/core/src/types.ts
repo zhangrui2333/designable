@@ -1,4 +1,4 @@
-import { IEventProps, Event } from '@edan/designable-shared'
+import { IEventProps, Event } from '@edan-kit/designable-shared'
 import { ISchema } from '@formily/json-schema'
 import {
   Engine,

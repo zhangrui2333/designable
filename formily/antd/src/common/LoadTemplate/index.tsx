@@ -1,5 +1,5 @@
 import React from 'react'
-import { NodeActionsWidget } from '@edan/designable-react'
+import { NodeActionsWidget } from '@edan-kit/designable-react'
 
 export interface ITemplateAction {
   title: React.ReactNode
