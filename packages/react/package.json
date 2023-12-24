@@ -1,6 +1,6 @@
 {
   "name": "@edan/designable-react",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "license": "MIT",
   "main": "lib",
   "types": "lib/index.d.ts",
@@ -30,8 +30,8 @@
     "@formily/reactive-react": "^2.2.14"
   },
   "dependencies": {
-    "@edan/designable-core": "0.0.0",
-    "@edan/designable-shared": "0.0.0",
+    "@edan/designable-core": "workspace:0.0.0",
+    "@edan/designable-shared": "workspace:0.0.0",
     "antd": "^5.0.5",
     "classnames": "^2.3.2",
     "dateformat": "^4.6.3",

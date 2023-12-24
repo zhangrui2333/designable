@@ -1,6 +1,6 @@
 {
   "name": "@edan/designable-sandbox-example",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "license": "MIT",
   "private": true,
   "engines": {
@@ -17,11 +17,11 @@
   "dependencies": {
     "@formily/reactive": "^2.2.14",
     "@formily/reactive-react": "^2.2.14",
-    "@edan/designable-core": "workspace:0.0.1",
-    "@edan/designable-react": "workspace:0.0.1",
-    "@edan/designable-react-sandbox": "workspace:0.0.1",
-    "@edan/designable-react-settings-form": "workspace:0.0.1",
-    "@edan/designable-shared": "workspace:0.0.1",
+    "@edan/designable-core": "workspace:0.0.0",
+    "@edan/designable-react": "workspace:0.0.0",
+    "@edan/designable-react-sandbox": "workspace:0.0.0",
+    "@edan/designable-react-settings-form": "workspace:0.0.0",
+    "@edan/designable-shared": "workspace:0.0.0",
     "antd": "^5.0.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
