@@ -1,6 +1,6 @@
 {
   "name": "@edan/designable-react-settings-form",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "license": "MIT",
   "main": "lib",
   "types": "lib/index.d.ts",
@@ -37,9 +37,9 @@
   },
   "dependencies": {
     "@babel/parser": "^7.20.5",
-    "@edan/designable-core": "^0.0.2",
-    "@edan/designable-react": "^0.0.2",
-    "@edan/designable-shared": "^0.0.2",
+    "@edan/designable-core": "^0.0.3",
+    "@edan/designable-react": "^0.0.3",
+    "@edan/designable-shared": "^0.0.3",
     "@formily/antd": "3.0.0-alpha.1",
     "@formily/core": "^2.2.14",
     "@formily/grid": "^2.2.14",
