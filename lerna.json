@@ -4,10 +4,5 @@
   "useWorkspaces": true,
   "npmClientArgs": ["--ignore-engines"],
   "command": {
-    "version": {
-      "forcePublish": true,
-      "exact": true,
-      "message": "chore(versions): 😊 publish %s"
-    }
   }
 }
