@@ -30,8 +30,8 @@
     "@formily/reactive-react": "^2.2.14"
   },
   "dependencies": {
-    "@edan/designable-core": "workspace:0.0.1",
-    "@edan/designable-shared": "workspace:0.0.1",
+    "@edan/designable-core": "0.0.0",
+    "@edan/designable-shared": "0.0.0",
     "antd": "^5.0.5",
     "classnames": "^2.3.2",
     "dateformat": "^4.6.3",
@@ -40,6 +40,5 @@
   },
   "publishConfig": {
     "access": "public"
-  },
-  "gitHead": "699def16484a8a8444c8a165ef0f3302a4cbeac0"
+  }
 }
