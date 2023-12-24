@@ -18,7 +18,7 @@ export default {
     },
     {
       title: 'GITHUB',
-      path: 'https://github.com/alibaba/formily',
+      path: 'https://github.com/zhangrui2333/formily',
     },
   ],
   styles: [

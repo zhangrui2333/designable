@@ -385,7 +385,7 @@ const Actions = observer(() => {
           GlobalRegistry.setDesignerLanguage(e.target.value)
         }}
       />
-      <Button href="https://github.com/alibaba/designable" target="_blank">
+      <Button href="https://github.com/zhangrui2333/designable" target="_blank">
         <GithubOutlined />
         Github
       </Button>

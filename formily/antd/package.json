@@ -6,9 +6,9 @@
   "module": "esm",
   "types": "esm/index.d.ts",
   "bugs": {
-    "url": "https://github.com/alibaba/designable/issues"
+    "url": "https://github.com/zhangrui2333/designable/issues"
   },
-  "homepage": "https://github.com/alibaba/designable#readme",
+  "homepage": "https://github.com/zhangrui2333/designable#readme",
   "engines": {
     "npm": ">=3.0.0"
   },
@@ -71,6 +71,10 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-is": "^18.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhangrui2333/designable.git"
   },
   "publishConfig": {
     "access": "public"

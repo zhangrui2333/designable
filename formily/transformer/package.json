@@ -9,13 +9,17 @@
   "module": "esm",
   "types": "esm/index.d.ts",
   "bugs": {
-    "url": "https://github.com/alibaba/designable/issues"
+    "url": "https://github.com/zhangrui2333/designable/issues"
   },
-  "homepage": "https://github.com/alibaba/designable#readme",
+  "homepage": "https://github.com/zhangrui2333/designable#readme",
   "scripts": {
     "build": "rimraf -rf lib esm dist && npm run build:cjs && npm run build:esm",
     "build:cjs": "tsc --project tsconfig.build.json",
     "build:esm": "tsc --project tsconfig.build.json --module es2015 --outDir esm"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhangrui2333/designable.git"
   },
   "publishConfig": {
     "access": "public"

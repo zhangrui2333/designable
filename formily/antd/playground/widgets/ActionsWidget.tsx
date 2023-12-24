@@ -27,7 +27,7 @@ export const ActionsWidget = observer((props: ActionsWidgetProps) => {
   return (
     <Space style={{ marginRight: 10 }}>
       {/* <Button href="https://designable-fusion.formilyjs.org">
-        Alibaba Fusion
+        zhangrui2333 Fusion
       </Button>
       <Radio.Group
         value={GlobalRegistry.getDesignerLanguage()}
@@ -41,7 +41,7 @@ export const ActionsWidget = observer((props: ActionsWidgetProps) => {
           GlobalRegistry.setDesignerLanguage(e.target.value)
         }}
       /> */}
-      {/* <Button href="https://github.com/alibaba/designable" target="_blank">
+      {/* <Button href="https://github.com/zhangrui2333/designable" target="_blank">
         <GithubOutlined />
         Github
       </Button> */}

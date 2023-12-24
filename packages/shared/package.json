@@ -8,10 +8,14 @@
     "npm": ">=3.0.0"
   },
   "module": "esm",
-  "bugs": {
-    "url": "https://github.com/alibaba/designable/issues"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhangrui2333/designable.git"
   },
-  "homepage": "https://github.com/alibaba/designable#readme",
+  "bugs": {
+    "url": "https://github.com/zhangrui2333/designable/issues"
+  },
+  "homepage": "https://github.com/zhangrui2333/designable#readme",
   "scripts": {
     "build": "rimraf -rf lib esm dist && npm run build:cjs && npm run build:esm && npm run build:umd",
     "build:cjs": "tsc --project tsconfig.build.json",
