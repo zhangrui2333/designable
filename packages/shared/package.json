@@ -1,6 +1,6 @@
 {
   "name": "@edan/designable-shared",
-  "version": "0.0.2",
+  "version": "0.0.0",
   "license": "MIT",
   "main": "lib",
   "types": "lib/index.d.ts",
@@ -29,5 +29,14 @@
     "lodash": "^4.17.21",
     "moment": "^2.29.4",
     "requestidlecallback": "^0.3.0"
-  }
+  },
+  "description": "> TODO: description",
+  "author": "zhangrui <395985079@qq.com>",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ]
 }
