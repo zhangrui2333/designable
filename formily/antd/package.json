@@ -5,10 +5,6 @@
   "main": "lib",
   "module": "esm",
   "types": "esm/index.d.ts",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/zhangrui2333/designable.git"
-  },
   "bugs": {
     "url": "https://github.com/alibaba/designable/issues"
   },
