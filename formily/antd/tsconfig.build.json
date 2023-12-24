@@ -1,0 +1,11 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "outDir": "./lib",
+    "paths": {
+      "@edan/designable-*": ["../../packages/*"],
+      "@edan/designable-formily-*": ["../../formily/*"]
+    },
+    "declaration": true
+  }
+}
