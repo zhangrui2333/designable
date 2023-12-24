@@ -1,6 +1,6 @@
 {
   "name": "@edan/designable-core",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "license": "MIT",
   "main": "lib",
   "types": "lib/index.d.ts",
@@ -31,7 +31,7 @@
     "@formily/path": "^2.2.14"
   },
   "dependencies": {
-    "@edan/designable-shared": "workspace:1.0.1",
+    "@edan/designable-shared": "workspace:1.0.2",
     "@formily/reactive": "^2.2.14",
     "@juggle/resize-observer": "^3.4.0",
     "lodash": "^4.17.21",
