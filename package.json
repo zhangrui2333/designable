@@ -11,9 +11,6 @@
   "resolutions": {
     "@formily/react": "^2.2.14"
   },
-  "publishConfig": {
-    "access":"public"
-  },
   "scripts": {
     "bootstrap": "lerna bootstrap",
     "clean": "lerna clean",
