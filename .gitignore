@@ -29,3 +29,4 @@ doc-site
 pnpm-lock.yaml
 pnpm-workspace.yaml
 scripts/
+.npmrc
