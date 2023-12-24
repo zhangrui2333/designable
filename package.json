@@ -17,7 +17,6 @@
     "build": "rimraf -rf packages/*/{lib,esm} && lerna run build",
     "build:docs": "dumi build",
     "start": "dumi dev",
-    "start:playground": "npm run start:basic",
     "start:antd": "yarn workspace @edan-cli/designable-formily-antd start",
     "test": "jest --coverage",
     "test:watch": "jest --watch",
