@@ -1,5 +1,5 @@
 {
-  "name": "@edan-kit/designable-formily-setters",
+  "name": "@edan-cli/designable-formily-setters",
   "version": "0.0.0",
   "license": "MIT",
   "main": "lib",
@@ -45,11 +45,11 @@
     "react-is": "^18.0.0"
   },
   "dependencies": {
-    "@edan-kit/designable-core": "0.0.0",
-    "@edan-kit/designable-formily-transformer": "0.0.0",
-    "@edan-kit/designable-react": "0.0.0",
-    "@edan-kit/designable-react-settings-form": "0.0.0",
-    "@edan-kit/designable-shared": "0.0.0",
+    "@edan-cli/designable-core": "0.0.0",
+    "@edan-cli/designable-formily-transformer": "0.0.0",
+    "@edan-cli/designable-react": "0.0.0",
+    "@edan-cli/designable-react-settings-form": "0.0.0",
+    "@edan-cli/designable-shared": "0.0.0",
     "@formily/json-schema": "^2.2.14",
     "@types/react": "^18.0.26",
     "@types/react-dom": "^18.0.9",

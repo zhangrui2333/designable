@@ -1,4 +1,4 @@
-import { GlobalRegistry } from '@edan-kit/designable-core'
+import { GlobalRegistry } from '@edan-cli/designable-core'
 
 GlobalRegistry.registerDesignerLocales({
   'zh-CN': {

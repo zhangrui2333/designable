@@ -1,6 +1,6 @@
 import React from 'react'
-import { ScreenType } from '@edan-kit/designable-core'
-import { requestIdle } from '@edan-kit/designable-shared'
+import { ScreenType } from '@edan-cli/designable-core'
+import { requestIdle } from '@edan-cli/designable-shared'
 import { observer } from '@formily/reactive-react'
 import { useScreen } from '../hooks'
 import {

@@ -1,6 +1,6 @@
 import React, { Fragment, PropsWithChildren } from 'react'
-import { isStr, isPlainObj } from '@edan-kit/designable-shared'
-import { GlobalRegistry, IDesignerMiniLocales } from '@edan-kit/designable-core'
+import { isStr, isPlainObj } from '@edan-cli/designable-shared'
+import { GlobalRegistry, IDesignerMiniLocales } from '@edan-cli/designable-core'
 import { observer, ReactFC } from '@formily/reactive-react'
 
 export interface ITextWidgetProps {

@@ -1,5 +1,5 @@
 import React, { Fragment, useMemo } from 'react'
-import { usePrefix } from '@edan-kit/designable-react'
+import { usePrefix } from '@edan-cli/designable-react'
 import { camelCase } from '@formily/shared'
 import { Select } from '@formily/antd'
 import { observable } from '@formily/reactive'

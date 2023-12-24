@@ -1,5 +1,5 @@
 import { IEngineContext } from '../../types'
-import { globalThisPolyfill } from '@edan-kit/designable-shared'
+import { globalThisPolyfill } from '@edan-cli/designable-shared'
 
 export interface IViewportEventData {
   scrollX: number

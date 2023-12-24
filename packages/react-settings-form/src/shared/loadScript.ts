@@ -1,5 +1,5 @@
 import { getNpmCDNRegistry } from '../registry'
-import { globalThisPolyfill } from '@edan-kit/designable-shared'
+import { globalThisPolyfill } from '@edan-cli/designable-shared'
 export interface ILoadScriptProps {
   package: string
   entry: string

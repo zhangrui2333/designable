@@ -1,11 +1,11 @@
 import React, { useEffect, useState, useRef } from 'react'
-import { TreeNode } from '@edan-kit/designable-core'
+import { TreeNode } from '@edan-cli/designable-core'
 import { useHover, useSelection, usePrefix } from '../../hooks'
 import { IconWidget } from '../IconWidget'
 import { NodeTitleWidget } from '../NodeTitleWidget'
 import { Button } from 'antd'
 import { observer, ReactFC } from '@formily/reactive-react'
-import { globalThisPolyfill } from '@edan-kit/designable-shared'
+import { globalThisPolyfill } from '@edan-cli/designable-shared'
 
 const useMouseHover = <T extends { current: HTMLElement | null }>(
   ref: T,

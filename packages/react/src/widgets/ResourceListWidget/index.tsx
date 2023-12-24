@@ -5,10 +5,10 @@ import {
   isResourceHost,
   isResourceList,
   SourceType,
-} from '@edan-kit/designable-core'
+} from '@edan-cli/designable-core'
 import { IResourceWidgetProps, ResourceWidget } from '../ResourceWidget'
 import React from 'react'
-import { isFn } from '@edan-kit/designable-shared'
+import { isFn } from '@edan-cli/designable-shared'
 import { Input } from 'antd'
 
 export interface IResourceListWidgetProps

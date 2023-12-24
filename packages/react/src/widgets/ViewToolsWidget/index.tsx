@@ -1,7 +1,7 @@
 import React from 'react'
 import { Button } from 'antd'
 import { observer, ReactFC } from '@formily/reactive-react'
-import { WorkbenchTypes } from '@edan-kit/designable-core'
+import { WorkbenchTypes } from '@edan-cli/designable-core'
 import { IconWidget } from '../IconWidget'
 import { usePrefix, useWorkbench } from '../../hooks'
 import cls from 'classnames'

@@ -1,6 +1,6 @@
 import React, { useEffect, useState, useRef } from 'react'
 import { Button } from 'antd'
-import { usePrefix, IconWidget } from '@edan-kit/designable-react'
+import { usePrefix, IconWidget } from '@edan-cli/designable-react'
 import cls from 'classnames'
 import './styles.less'
 export interface IInput {

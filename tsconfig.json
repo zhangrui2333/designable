@@ -16,8 +16,8 @@
     "downlevelIteration": true,
     "baseUrl": ".",
     "paths": {
-      "@edan-kit/designable-*": ["./packages/*/src"],
-      "@edan-kit/designable-formily-*": ["./formily/*/src"]
+      "@edan-cli/designable-*": ["./packages/*/src"],
+      "@edan-cli/designable-formily-*": ["./formily/*/src"]
     },
     "lib": ["DOm", "DOM.Iterable"]
   }

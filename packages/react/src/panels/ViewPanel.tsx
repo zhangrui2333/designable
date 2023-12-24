@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react'
-import { TreeNode, ITreeNode, WorkbenchTypes } from '@edan-kit/designable-core'
+import { TreeNode, ITreeNode, WorkbenchTypes } from '@edan-cli/designable-core'
 import { observer } from '@formily/reactive-react'
 import { useTree, useWorkbench } from '../hooks'
 import { Viewport } from '../containers'
-import { requestIdle } from '@edan-kit/designable-shared'
+import { requestIdle } from '@edan-cli/designable-shared'
 
 export interface IViewPanelProps {
   type: WorkbenchTypes

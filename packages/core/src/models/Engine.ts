@@ -1,4 +1,4 @@
-import { Event, globalThisPolyfill, uid } from '@edan-kit/designable-shared'
+import { Event, globalThisPolyfill, uid } from '@edan-cli/designable-shared'
 import { IEngineProps } from '../types'
 import { Cursor } from './Cursor'
 import { Keyboard } from './Keyboard'

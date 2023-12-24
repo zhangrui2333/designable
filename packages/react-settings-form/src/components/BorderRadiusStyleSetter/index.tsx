@@ -1,5 +1,5 @@
 import React from 'react'
-import { IconWidget } from '@edan-kit/designable-react'
+import { IconWidget } from '@edan-cli/designable-react'
 import { BoxStyleSetter } from '../BoxStyleSetter'
 export interface IBorderRadiusStyleSetterProps {
   value?: string

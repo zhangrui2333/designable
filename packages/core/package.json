@@ -1,5 +1,5 @@
 {
-  "name": "@edan-kit/designable-core",
+  "name": "@edan-cli/designable-core",
   "version": "0.0.0",
   "license": "MIT",
   "main": "lib",
@@ -27,7 +27,7 @@
     "@formily/path": "^2.2.14"
   },
   "dependencies": {
-    "@edan-kit/designable-shared": "0.0.0",
+    "@edan-cli/designable-shared": "0.0.0",
     "@formily/reactive": "^2.2.14",
     "@juggle/resize-observer": "^3.4.0",
     "lodash": "^4.17.21",

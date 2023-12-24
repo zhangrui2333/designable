@@ -1,7 +1,7 @@
 import React from 'react'
 import cls from 'classnames'
 import { useDesigner, usePrefix } from '../../hooks'
-import { TreeNode } from '@edan-kit/designable-core'
+import { TreeNode } from '@edan-cli/designable-core'
 import { IconWidget } from '../IconWidget'
 import { ReactFC } from '@formily/reactive-react'
 

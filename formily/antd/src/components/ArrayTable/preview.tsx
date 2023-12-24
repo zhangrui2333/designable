@@ -1,13 +1,13 @@
 import React from 'react'
 import { Table, TableProps } from 'antd'
-import { TreeNode, createBehavior, createResource } from '@edan-kit/designable-core'
+import { TreeNode, createBehavior, createResource } from '@edan-cli/designable-core'
 import {
   useTreeNode,
   TreeNodeWidget,
   DroppableWidget,
   useNodeIdProps,
   DnFC,
-} from '@edan-kit/designable-react'
+} from '@edan-cli/designable-react'
 import { ArrayBase } from '@formily/antd'
 import { observer } from '@formily/react'
 import { LoadTemplate } from '../../common/LoadTemplate'

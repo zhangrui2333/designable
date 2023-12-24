@@ -1,12 +1,12 @@
 import React from 'react'
 import { FormGrid as FormilyGird } from '@formily/antd'
-import { TreeNode, createBehavior, createResource } from '@edan-kit/designable-core'
+import { TreeNode, createBehavior, createResource } from '@edan-cli/designable-core'
 import {
   DnFC,
   useTreeNode,
   useNodeIdProps,
   DroppableWidget,
-} from '@edan-kit/designable-react'
+} from '@edan-cli/designable-react'
 import { observer } from '@formily/reactive-react'
 import { LoadTemplate } from '../../common/LoadTemplate'
 import { createFieldSchema } from '../Field'

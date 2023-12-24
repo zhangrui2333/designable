@@ -1,4 +1,4 @@
-import { TreeNode } from '@edan-kit/designable-core'
+import { TreeNode } from '@edan-cli/designable-core'
 import { useContext } from 'react'
 import { TreeNodeContext } from '../context'
 

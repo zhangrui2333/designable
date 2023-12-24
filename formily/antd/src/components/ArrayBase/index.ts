@@ -1,4 +1,4 @@
-import { createBehavior } from '@edan-kit/designable-core'
+import { createBehavior } from '@edan-cli/designable-core'
 import { createFieldSchema, createVoidFieldSchema } from '../Field'
 import { AllSchemas } from '../../schemas'
 import { AllLocales } from '../../locales'

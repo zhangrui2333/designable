@@ -1,7 +1,7 @@
 import { useContext, useEffect } from 'react'
-import { Engine } from '@edan-kit/designable-core'
+import { Engine } from '@edan-cli/designable-core'
 import { DesignerEngineContext } from '../context'
-import { isFn, globalThisPolyfill } from '@edan-kit/designable-shared'
+import { isFn, globalThisPolyfill } from '@edan-cli/designable-shared'
 export interface IEffects {
   (engine: Engine): void
 }

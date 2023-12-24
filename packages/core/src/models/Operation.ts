@@ -10,7 +10,7 @@ import {
   ICustomEvent,
   isFn,
   requestIdle,
-} from '@edan-kit/designable-shared'
+} from '@edan-cli/designable-shared'
 
 export interface IOperation {
   tree?: ITreeNode

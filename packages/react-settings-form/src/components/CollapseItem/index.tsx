@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { useField, observer } from '@formily/react'
-import { usePrefix, IconWidget } from '@edan-kit/designable-react'
+import { usePrefix, IconWidget } from '@edan-cli/designable-react'
 import cls from 'classnames'
 import './styles.less'
 

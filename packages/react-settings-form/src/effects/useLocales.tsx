@@ -1,8 +1,8 @@
 import React from 'react'
 import { isVoidField, onFieldReact } from '@formily/core'
-import { TreeNode, GlobalRegistry } from '@edan-kit/designable-core'
-import { isStr } from '@edan-kit/designable-shared'
-import { IconWidget } from '@edan-kit/designable-react'
+import { TreeNode, GlobalRegistry } from '@edan-cli/designable-core'
+import { isStr } from '@edan-cli/designable-shared'
+import { IconWidget } from '@edan-cli/designable-react'
 
 const takeIcon = (message: string) => {
   if (!isStr(message)) return

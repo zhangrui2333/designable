@@ -1,6 +1,6 @@
 import React from 'react'
-import { TreeNode } from '@edan-kit/designable-core'
-import { MonacoInput } from '@edan-kit/designable-react-settings-form'
+import { TreeNode } from '@edan-cli/designable-core'
+import { MonacoInput } from '@edan-cli/designable-react-settings-form'
 import { isEmpty, isPlainObj } from '@formily/shared'
 
 export interface IMarkupSchemaWidgetProps {

@@ -18,7 +18,7 @@
     "build:docs": "dumi build",
     "start": "dumi dev",
     "start:playground": "npm run start:basic",
-    "start:antd": "yarn workspace @edan-kit/designable-formily-antd start",
+    "start:antd": "yarn workspace @edan-cli/designable-formily-antd start",
     "test": "jest --coverage",
     "test:watch": "jest --watch",
     "test:prod": "jest --coverage --silent",

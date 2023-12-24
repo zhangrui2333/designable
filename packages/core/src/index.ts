@@ -1,6 +1,6 @@
 import * as Core from './exports'
 export * from './exports'
-import { globalThisPolyfill } from '@edan-kit/designable-shared'
+import { globalThisPolyfill } from '@edan-cli/designable-shared'
 
 if (globalThisPolyfill?.['Designable']?.['Core']) {
   if (module.exports) {

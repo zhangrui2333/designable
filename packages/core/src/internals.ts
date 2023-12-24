@@ -1,5 +1,5 @@
-import { each, isPlainObj } from '@edan-kit/designable-shared'
-import { globalThisPolyfill } from '@edan-kit/designable-shared'
+import { each, isPlainObj } from '@edan-cli/designable-shared'
+import { globalThisPolyfill } from '@edan-cli/designable-shared'
 
 export const lowerSnake = (str: string) => {
   return String(str).replace(/\s+/g, '_').toLocaleLowerCase()

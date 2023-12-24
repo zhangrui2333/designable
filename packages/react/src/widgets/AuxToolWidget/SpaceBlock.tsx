@@ -1,11 +1,11 @@
 import React, { Fragment } from 'react'
 import { useTransformHelper, useCursor, usePrefix } from '../../hooks'
 import { observer } from '@formily/reactive-react'
-import { CursorStatus } from '@edan-kit/designable-core'
+import { CursorStatus } from '@edan-cli/designable-core'
 import {
   ILineSegment,
   calcRectOfAxisLineSegment,
-} from '@edan-kit/designable-shared'
+} from '@edan-cli/designable-shared'
 
 export const SpaceBlock = observer(() => {
   const cursor = useCursor()

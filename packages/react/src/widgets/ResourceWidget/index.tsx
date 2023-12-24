@@ -4,8 +4,8 @@ import {
   isResourceList,
   IResourceLike,
   IResource,
-} from '@edan-kit/designable-core'
-import { isFn } from '@edan-kit/designable-shared'
+} from '@edan-cli/designable-core'
+import { isFn } from '@edan-cli/designable-shared'
 import { observer, ReactFC } from '@formily/reactive-react'
 import { usePrefix } from '../../hooks'
 import { IconWidget } from '../IconWidget'

@@ -16,17 +16,17 @@ import {
   SettingsPanel,
   ComponentTreeWidget,
   ResourceListWidget,
-} from '@edan-kit/designable-react'
+} from '@edan-cli/designable-react'
 import {
   SettingsForm,
   setNpmCDNRegistry,
-} from '@edan-kit/designable-react-settings-form'
+} from '@edan-cli/designable-react-settings-form'
 import {
   createDesigner,
   GlobalRegistry,
   Shortcut,
   KeyCode,
-} from '@edan-kit/designable-core'
+} from '@edan-cli/designable-core'
 import {
   LogoWidget,
   ActionsWidget,
@@ -35,7 +35,7 @@ import {
   MarkupSchemaWidget,
 } from './widgets'
 import { saveSchema } from './service'
-import { sources } from '@edan-kit/designable-formily-antd'
+import { sources } from '@edan-cli/designable-formily-antd'
 import { Alert } from 'antd'
 import '../src/styles/theme.less'
 setNpmCDNRegistry('//cdn.jsdelivr.net/npm')

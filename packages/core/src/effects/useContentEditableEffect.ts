@@ -1,5 +1,5 @@
 import { Path } from '@formily/path'
-import { globalThisPolyfill, requestIdle } from '@edan-kit/designable-shared'
+import { globalThisPolyfill, requestIdle } from '@edan-cli/designable-shared'
 import { MouseClickEvent, MouseDoubleClickEvent } from '../events'
 import { Engine, TreeNode } from '../models'
 

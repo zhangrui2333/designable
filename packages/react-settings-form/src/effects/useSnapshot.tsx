@@ -1,6 +1,6 @@
-import { Operation } from '@edan-kit/designable-core'
+import { Operation } from '@edan-cli/designable-core'
 import { onFieldInputValueChange } from '@formily/core'
-import { globalThisPolyfill } from '@edan-kit/designable-shared'
+import { globalThisPolyfill } from '@edan-cli/designable-shared'
 
 let timeRequest = 0
 

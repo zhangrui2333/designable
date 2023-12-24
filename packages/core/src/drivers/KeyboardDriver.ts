@@ -1,4 +1,4 @@
-import { EventDriver } from '@edan-kit/designable-shared'
+import { EventDriver } from '@edan-cli/designable-shared'
 import { KeyDownEvent, KeyUpEvent } from '../events'
 
 function filter(event: KeyboardEvent) {

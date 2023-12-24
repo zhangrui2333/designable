@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
-import { TextWidget, usePrefix } from '@edan-kit/designable-react'
+import { TextWidget, usePrefix } from '@edan-cli/designable-react'
 import { Menu } from 'antd'
-import { MonacoInput } from '@edan-kit/designable-react-settings-form'
+import { MonacoInput } from '@edan-cli/designable-react-settings-form'
 import { isPlainObj, reduce } from '@formily/shared'
 import { FieldProperties } from './properties'
 export interface IFieldProperty {

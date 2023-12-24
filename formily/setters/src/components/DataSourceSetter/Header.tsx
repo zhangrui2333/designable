@@ -1,6 +1,6 @@
 import React, { ReactNode } from 'react'
 import { observer } from '@formily/reactive-react'
-import { usePrefix } from '@edan-kit/designable-react'
+import { usePrefix } from '@edan-cli/designable-react'
 import './styles.less'
 
 export interface IHeaderProps {

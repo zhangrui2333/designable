@@ -5,11 +5,11 @@ import {
   IconWidget,
   usePrefix,
   useTheme,
-} from '@edan-kit/designable-react'
+} from '@edan-cli/designable-react'
 import * as monaco from 'monaco-editor/esm/vs/editor/editor.api'
 import { Tooltip } from 'antd'
 import { parseExpression, parse } from '@babel/parser'
-import { globalThisPolyfill, uid } from '@edan-kit/designable-shared'
+import { globalThisPolyfill, uid } from '@edan-cli/designable-shared'
 import { format } from './format'
 import cls from 'classnames'
 import './styles.less'

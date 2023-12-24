@@ -1,5 +1,5 @@
 import { action, define, observable, toJS } from '@formily/reactive'
-import { uid, isFn, each } from '@edan-kit/designable-shared'
+import { uid, isFn, each } from '@edan-cli/designable-shared'
 import { Operation } from './Operation'
 import {
   InsertBeforeEvent,

@@ -1,5 +1,5 @@
 import { observable, define, action } from '@formily/reactive'
-import { KeyCode } from '@edan-kit/designable-shared'
+import { KeyCode } from '@edan-cli/designable-shared'
 import { Engine } from './Engine'
 import { Shortcut } from './Shortcut'
 import { AbstractKeyboardEvent } from '../events/keyboard/AbstractKeyboardEvent'

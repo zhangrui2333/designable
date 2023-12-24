@@ -1,8 +1,8 @@
 import { useContext } from 'react'
 import { useDesigner } from './useDesigner'
 import { WorkspaceContext } from '../context'
-import { Workspace } from '@edan-kit/designable-core'
-import { globalThisPolyfill } from '@edan-kit/designable-shared'
+import { Workspace } from '@edan-cli/designable-core'
+import { globalThisPolyfill } from '@edan-cli/designable-shared'
 
 export const useWorkspace = (id?: string): Workspace => {
   const designer = useDesigner()

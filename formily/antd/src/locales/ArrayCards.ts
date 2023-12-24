@@ -1,4 +1,4 @@
-import { createLocales } from '@edan-kit/designable-core'
+import { createLocales } from '@edan-cli/designable-core'
 import { Card } from './Card'
 
 export const ArrayCards = createLocales(Card, {

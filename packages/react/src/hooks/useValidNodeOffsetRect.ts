@@ -1,6 +1,6 @@
 import { useState, useEffect, useMemo, useCallback } from 'react'
-import { TreeNode, CursorStatus, CursorDragType } from '@edan-kit/designable-core'
-import { LayoutObserver } from '@edan-kit/designable-shared'
+import { TreeNode, CursorStatus, CursorDragType } from '@edan-cli/designable-core'
+import { LayoutObserver } from '@edan-cli/designable-shared'
 import { useViewport } from './useViewport'
 import { useDesigner } from './useDesigner'
 

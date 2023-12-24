@@ -1,4 +1,4 @@
-import { ICustomEvent } from '@edan-kit/designable-shared'
+import { ICustomEvent } from '@edan-cli/designable-shared'
 import { ITreeNode, TreeNode } from '../../models'
 import { IEngineContext } from '../../types'
 

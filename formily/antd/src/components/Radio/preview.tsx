@@ -1,5 +1,5 @@
-import { createBehavior, createResource } from '@edan-kit/designable-core';
-import { DnFC } from '@edan-kit/designable-react';
+import { createBehavior, createResource } from '@edan-cli/designable-core';
+import { DnFC } from '@edan-cli/designable-react';
 import { Field, connect, mapProps, useField } from '@formily/react';
 import { Radio as AntdRadio } from 'antd';
 import { RadioChangeEvent } from 'antd/lib/radio';

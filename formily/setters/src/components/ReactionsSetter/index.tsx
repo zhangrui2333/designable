@@ -2,10 +2,10 @@ import React, { useEffect, useMemo, useState } from 'react'
 import { clone, uid } from '@formily/shared'
 import { createForm, isVoidField } from '@formily/core'
 import { createSchemaField } from '@formily/react'
-import { GlobalRegistry } from '@edan-kit/designable-core'
-import { requestIdle } from '@edan-kit/designable-shared'
-import { usePrefix, TextWidget } from '@edan-kit/designable-react'
-import { MonacoInput } from '@edan-kit/designable-react-settings-form'
+import { GlobalRegistry } from '@edan-cli/designable-core'
+import { requestIdle } from '@edan-cli/designable-shared'
+import { usePrefix, TextWidget } from '@edan-cli/designable-react'
+import { MonacoInput } from '@edan-cli/designable-react-settings-form'
 import {
   Form,
   ArrayTable,

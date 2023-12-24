@@ -3,10 +3,10 @@ import {
   ReactionsSetter,
   DataSourceSetter,
   ValidatorSetter,
-} from '@edan-kit/designable-formily-setters'
+} from '@edan-cli/designable-formily-setters'
 import { FormItemSwitcher } from '../../common/FormItemSwitcher'
 import { AllSchemas } from '../../schemas'
-import { NameSetter } from '@edan-kit/designable-react-settings-form'
+import { NameSetter } from '@edan-cli/designable-react-settings-form'
 
 export const createComponentSchema = (
   component?: ISchema,

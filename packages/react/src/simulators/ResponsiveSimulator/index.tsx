@@ -6,11 +6,11 @@ import {
   DragMoveEvent,
   DragStopEvent,
   CursorDragType,
-} from '@edan-kit/designable-core'
+} from '@edan-cli/designable-core'
 import {
   calcSpeedFactor,
   createUniformSpeedAnimation,
-} from '@edan-kit/designable-shared'
+} from '@edan-cli/designable-shared'
 import { useScreen, useDesigner, usePrefix } from '../../hooks'
 import { IconWidget } from '../../widgets'
 import { ResizeHandle, ResizeHandleType } from './handle'

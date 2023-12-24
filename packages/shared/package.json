@@ -1,5 +1,5 @@
 {
-  "name": "@edan-kit/designable-shared",
+  "name": "@edan-cli/designable-shared",
   "version": "0.0.0",
   "license": "MIT",
   "main": "lib",
