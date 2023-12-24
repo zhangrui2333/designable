@@ -1,8 +1,12 @@
 {
-  "version": "1.0.0",
+  "version": "1.0.1",
   "npmClient": "yarn",
   "useWorkspaces": true,
   "npmClientArgs": ["--ignore-engines"],
   "command": {
+    "publish": { 
+      "ignoreChanges": ["ignored-file", "*.md"], 
+      "message": "chore(release): publish"
+    }
   }
 }
