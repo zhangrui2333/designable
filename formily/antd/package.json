@@ -1,6 +1,6 @@
 {
   "name": "@edan/designable-formily-antd",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "license": "MIT",
   "main": "lib",
   "module": "esm",
@@ -21,7 +21,7 @@
     "preview:playground": "vite preview --host --config playground/vite.config.ts"
   },
   "devDependencies": {
-    "@edan/designable-react-settings-form": "^0.0.1",
+    "@edan/designable-react-settings-form": "0.0.0",
     "@formily/antd": "3.0.0-alpha.1",
     "@formily/core": "^2.2.14",
     "@formily/json-schema": "^2.2.14",
@@ -59,10 +59,10 @@
     "react-is": "^18.0.0"
   },
   "dependencies": {
-    "@edan/designable-core": "^0.0.1",
-    "@edan/designable-formily-setters": "^0.0.1",
-    "@edan/designable-formily-transformer": "^0.0.1",
-    "@edan/designable-react": "^0.0.1",
+    "@edan/designable-core": "0.0.0",
+    "@edan/designable-formily-setters": "0.0.0",
+    "@edan/designable-formily-transformer": "0.0.0",
+    "@edan/designable-react": "0.0.0",
     "antd": "^5.0.5",
     "classnames": "^2.3.2",
     "events": "^3.3.0",
