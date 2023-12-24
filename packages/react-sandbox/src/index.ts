@@ -29,7 +29,7 @@ export const useSandbox = (props: React.PropsWithChildren<ISandboxProps>) => {
     ).getPropertyValue(name)
   }
   useEffect(() => {
-    if (ref.current && workspace) {
+    if (ref.current && ref.current.contentWindow && ref.current.contentDocument && workspace) {
       const styles = cssAssets
         ?.map?.((css) => {
           return `<link media="all" rel="stylesheet" href="${css}" />`
@@ -99,7 +99,7 @@ export const useSandbox = (props: React.PropsWithChildren<ISandboxProps>) => {
 if (globalThisPolyfill.frameElement) {
   //解决iframe内嵌如果iframe被移除，内部React无法回收内存的问题
   globalThisPolyfill.addEventListener('unload', () => {
-    ReactDOM.unmountComponentAtNode(document.getElementById('__SANDBOX_ROOT__'))
+    ReactDOM.unmountComponentAtNode(document.getElementById('__SANDBOX_ROOT__') as HTMLElement )
   })
 }
 
