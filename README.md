@@ -31,7 +31,3 @@ This project exists thanks to all the people who contribute.
 <p>
 <a href="https://github.com/zhangrui2333/designable/graphs/contributors"><img src="https://contrib.rocks/image?repo=zhangrui2333/designable" /></a>
 </p>
-
-pnpm 
-pnpm link 
-pnpm 
