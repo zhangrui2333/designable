@@ -26,7 +26,6 @@ package.zip
 doc-site
 .lerna-changelog
 .vscode
-pnpm-lock.yaml
-pnpm-workspace.yaml
 scripts/
 .npmrc
+**/src

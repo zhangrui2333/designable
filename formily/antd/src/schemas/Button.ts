@@ -95,7 +95,6 @@ export const Button: ISchema & { Addition?: ISchema } = {
       'x-decorator': 'FormItem',
       'x-component': 'Switch',
     },
-
     clickEvent: {
       type: 'object',
       'x-component': 'DrawerSetter',

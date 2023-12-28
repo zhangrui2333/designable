@@ -178,7 +178,8 @@ export const ReactionsSetter: React.FC<IReactionsSetterProps> = (props) => {
         )}
         width="70%"
         centered
-        bodyStyle={{ padding: 10 }}
+        // bodyStyle={{ padding: 10 }}
+        styles={{ body: { padding: 10 }}}
         transitionName=""
         maskTransitionName=""
         open={modalOpen}

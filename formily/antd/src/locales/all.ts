@@ -33,3 +33,4 @@ export * from './AutoComplete'
 export * from './Divider'
 export * from './Button'
 export * from './Modal'
+export * from './Connection';

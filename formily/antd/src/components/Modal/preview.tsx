@@ -43,15 +43,12 @@ export const CustomModal: React.FC = (props: any) => {
     return fromFields;
   };
 
-  useEffect(() => {
-    // console.log("弹窗参数children", props.children);
+  useEffect(() => {    
     if (field.props.name != null && field.props.name != '') {
       // console.log("$AddListen", props["$AddListen"]);
       eventBus.addListener(field.props.name as string, (msg) => {
         //e.preventDefault()
-
         //e.stopImmediatePropagation();
-        //dataparam={}
         let modalPrefix = props?.modalPrefix;
         if (modalPrefix == null) modalPrefix = 'row|';
 
@@ -116,7 +113,6 @@ export const CustomModal: React.FC = (props: any) => {
             }
             let oldvalues = field?.form.values;
             let value = merge(data, oldvalues);
-            // console.log("value 111", value);
             field?.form.setValues(value);
             field?.form.validate('*');
         }
@@ -250,7 +246,8 @@ export const CustomModal: React.FC = (props: any) => {
   return (
     <>
       <AntdModal
-        bodyStyle={{ padding: '24px 24px 10px 24px' }}
+        // bodyStyle={{ padding: '24px 24px 10px 24px' }}
+        styles={{ body: { padding: '24px 24px 10px 24px'}}}
         zIndex={1003}
         {...props}
         className="dn-modal"

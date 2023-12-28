@@ -29,5 +29,6 @@ export {
   AutoComplete,
   Divider,
   Button,
-  Modal
+  Modal,
+  Connection
 } from './components'

@@ -7,6 +7,11 @@ export const Select = {
           title: '模式',
           dataSource: ['多选', '标签', '单选'],
         },
+        code: '编码值',
+        initApi:{
+          title: "初始化api",
+          toolTip:"api优先级高于编码值"
+        },
         autoClearSearchValue: {
           title: '选中自动清除',
           tooltip: '仅在多选或者标签模式下支持',
