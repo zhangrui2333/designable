@@ -8,11 +8,18 @@ export const Connection = {
     },
   },
   'en-US': {
-    title: 'Text',
+    title: 'Connection',
     settings: {
       'x-component-props': {
-        content: 'Text Content',
         formCode: 'Form Code',
+      },
+    },
+  },
+  'ja-JP': {
+    title: 'テキスト',
+    settings: {
+      'x-component-props': {
+        formCode: 'Form コード',
       },
     },
   },
@@ -20,9 +27,8 @@ export const Connection = {
     title: '텍스트',
     settings: {
       'x-component-props': {
-        content: '텍스트 내용',
         formCode: 'Form 코드',
       },
     },
-  },
+  }
 }

@@ -35,6 +35,7 @@ export {
   CustomDivider as Divider,
   CustomModal as Modal,
   CustomRadio as Radio,
+  CustomConnection as Connection
 } from '@edan-cli/designable-formily-antd';
 
 export const Text: React.FC<{

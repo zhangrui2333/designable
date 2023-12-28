@@ -27,7 +27,6 @@ export const Connection: DnFC<IDesignableConnectionProps> = (props) => {
       className: cls(props.className, 'dn-connection'),
       'data-content-editable': 'x-component-props.content',
     },
-    props.content
   )
 }
 
@@ -47,7 +46,7 @@ Connection.Resource = createResource('Displays', {
     {
       componentName: 'Field',
       props: {
-        type: 'object',
+        type: 'void',
         'x-component': 'Connection',
       },
     },

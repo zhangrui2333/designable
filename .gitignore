@@ -29,3 +29,5 @@ doc-site
 scripts/
 .npmrc
 **/src
+**/playground
+**/node_modules
