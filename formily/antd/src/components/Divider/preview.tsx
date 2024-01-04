@@ -40,9 +40,7 @@ Divider.Resource = createResource('Layouts', {
         'x-component-props': {
           title: 'Divider',
           style: {
-            color: '#f37e87',
             borderTopWidth: '4px',
-            borderColor: '#f37e87',
           },
           orientation: 'left',
         },

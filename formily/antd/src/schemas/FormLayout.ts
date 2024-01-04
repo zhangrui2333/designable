@@ -3,6 +3,23 @@ import { ISchema } from '@formily/react'
 export const FormLayout: ISchema = {
   type: 'object',
   properties: {
+    initApi: {
+      type: "string",
+      "x-decorator": "FormItem",
+      "x-component": "Input.TextArea",
+      "x-component-props": {
+        defaultValue: "/api/submit/getFormSubmitData",
+      },
+    },
+    defaultApiArr: {
+      type: "array",
+      "x-decorator": "FormItem",
+      "x-component": "Select",
+      "x-component-props": {
+        access: true,
+        mode: "tags",
+      },
+    },
     labelCol: {
       type: 'number',
       'x-decorator': 'FormItem',

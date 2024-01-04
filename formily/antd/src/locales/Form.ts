@@ -5,6 +5,8 @@ export const Form = createLocales(Component, {
   'zh-CN': {
     title: '表单',
     settings: {
+      initApi: "初始化api",
+      defaultApiArr: "默认值api",
       labelCol: '标签网格宽度',
       wrapperCol: '组件网格宽度',
       colon: '是否有冒号',
